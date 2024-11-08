@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extent-config>
+    <report>
+        <name>Test Report</name>
+        <title>Automated Test Report</title>
+        <theme>standard</theme>
+    </report>
+
+    <output>
+        <folder>test-output/ExtentReports</folder>
+    </output>
+
+    <chart>
+        <enabled>true</enabled>
+        <pieChart>true</pieChart>
+    </chart>
+
+    <styles>
+        <css>custom-style.css</css>
+    </styles>
+
+    <scripts>
+        <js>custom-script.js</js>
+    </scripts>
+</extent-config>

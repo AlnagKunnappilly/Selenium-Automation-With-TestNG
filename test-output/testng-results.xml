@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="21" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-08T11:21:02 IST" name="Suite" finished-at="2024-11-08T11:22:03 IST" duration-ms="61070">
+    <groups>
+      <group name="HomePageTestCases">
+        <method signature="HomePageTestCases.validateURL()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" name="validateURL" class="com.bankingproject.testcases.HomePageTestCases"/>
+        <method signature="HomePageTestCases.checkHomeButtonFunctionality()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" name="checkHomeButtonFunctionality" class="com.bankingproject.testcases.HomePageTestCases"/>
+        <method signature="HomePageTestCases.checkCustomerButtonFunctionality()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" name="checkCustomerButtonFunctionality" class="com.bankingproject.testcases.HomePageTestCases"/>
+        <method signature="HomePageTestCases.checkBankMangerButtonFunctionality()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" name="checkBankMangerButtonFunctionality" class="com.bankingproject.testcases.HomePageTestCases"/>
+      </group> <!-- HomePageTestCases -->
+      <group name="BankManagerTestCases">
+        <method signature="BankManagerTestCases.validateAddCustomerURL()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" name="validateAddCustomerURL" class="com.bankingproject.testcases.BankManagerTestCases"/>
+        <method signature="BankManagerTestCases.addCustomerFeildsDisplayed()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" name="addCustomerFeildsDisplayed" class="com.bankingproject.testcases.BankManagerTestCases"/>
+        <method signature="BankManagerTestCases.addCustomers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" name="addCustomers" class="com.bankingproject.testcases.BankManagerTestCases"/>
+        <method signature="BankManagerTestCases.addSingleCustomer()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" name="addSingleCustomer" class="com.bankingproject.testcases.BankManagerTestCases"/>
+        <method signature="BankManagerTestCases.openAccount(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" name="openAccount" class="com.bankingproject.testcases.BankManagerTestCases"/>
+        <method signature="BankManagerTestCases.deleteCustomer(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" name="deleteCustomer" class="com.bankingproject.testcases.BankManagerTestCases"/>
+      </group> <!-- BankManagerTestCases -->
+      <group name="CustomerLoginTestCases">
+        <method signature="CustomerLoginTestCases.validateLogin()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="validateLogin" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+        <method signature="CustomerLoginTestCases.deposit()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="deposit" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+        <method signature="CustomerLoginTestCases.withdrawl()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="withdrawl" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+        <method signature="CustomerLoginTestCases.transactionExcel()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="transactionExcel" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+        <method signature="CustomerLoginTestCases.resetTransaction()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="resetTransaction" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+        <method signature="CustomerLoginTestCases.validations()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="validations" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+        <method signature="CustomerLoginTestCases.logout()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" name="logout" class="com.bankingproject.testcases.CustomerLoginTestCases"/>
+      </group> <!-- CustomerLoginTestCases -->
+    </groups>
+    <test started-at="2024-11-08T11:21:02 IST" name="Test" finished-at="2024-11-08T11:22:03 IST" duration-ms="61070">
+      <class name="com.bankingproject.testcases.CustomerLoginTestCases">
+        <test-method is-config="true" signature="Loadconfig()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:21:39 IST" name="Loadconfig" finished-at="2024-11-08T11:21:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loadconfig -->
+        <test-method signature="validateLogin()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:21:39 IST" name="validateLogin" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:21:42 IST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method signature="deposit()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:21:42 IST" name="deposit" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:21:44 IST" depends-on-methods="com.bankingproject.testcases.CustomerLoginTestCases.validateLogin" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method signature="withdrawl()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:21:44 IST" name="withdrawl" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:21:46 IST" depends-on-methods="com.bankingproject.testcases.CustomerLoginTestCases.deposit, com.bankingproject.testcases.CustomerLoginTestCases.validateLogin" duration-ms="2534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawl -->
+        <test-method signature="transactionExcel()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:21:46 IST" name="transactionExcel" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:21:47 IST" depends-on-methods="com.bankingproject.testcases.CustomerLoginTestCases.deposit, com.bankingproject.testcases.CustomerLoginTestCases.withdrawl, com.bankingproject.testcases.CustomerLoginTestCases.validateLogin" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionExcel -->
+        <test-method signature="resetTransaction()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:21:47 IST" name="resetTransaction" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:22:00 IST" depends-on-methods="com.bankingproject.testcases.CustomerLoginTestCases.transactionExcel, com.bankingproject.testcases.CustomerLoginTestCases.deposit, com.bankingproject.testcases.CustomerLoginTestCases.withdrawl, com.bankingproject.testcases.CustomerLoginTestCases.validateLogin" duration-ms="13044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTransaction -->
+        <test-method signature="validations()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:22:00 IST" name="validations" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:22:03 IST" depends-on-methods="com.bankingproject.testcases.CustomerLoginTestCases.transactionExcel, com.bankingproject.testcases.CustomerLoginTestCases.deposit, com.bankingproject.testcases.CustomerLoginTestCases.resetTransaction, com.bankingproject.testcases.CustomerLoginTestCases.withdrawl, com.bankingproject.testcases.CustomerLoginTestCases.validateLogin" duration-ms="2599" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Transaction . You can not withdraw amount more than the balance.] but found [Transaction Failed. You can not withdraw amount more than the balance.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Transaction . You can not withdraw amount more than the balance.] but found [Transaction Failed. You can not withdraw amount more than the balance.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.bankingproject.testcases.CustomerLoginTestCases.validations(CustomerLoginTestCases.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method signature="logout()[pri:0, instance:com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]" started-at="2024-11-08T11:22:03 IST" name="logout" depends-on-groups="BankManagerTestCases" finished-at="2024-11-08T11:22:03 IST" depends-on-methods="com.bankingproject.testcases.CustomerLoginTestCases.transactionExcel, com.bankingproject.testcases.CustomerLoginTestCases.deposit, com.bankingproject.testcases.CustomerLoginTestCases.validations, com.bankingproject.testcases.CustomerLoginTestCases.resetTransaction, com.bankingproject.testcases.CustomerLoginTestCases.withdrawl, com.bankingproject.testcases.CustomerLoginTestCases.validateLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.bankingproject.testcases.CustomerLoginTestCases.logout() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1 depends on not successfully finished methods 
+[com.bankingproject.testcases.CustomerLoginTestCases.transactionExcel() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.deposit() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.validations() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.resetTransaction() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.withdrawl() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.validateLogin() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.bankingproject.testcases.CustomerLoginTestCases.logout() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1 depends on not successfully finished methods 
+[com.bankingproject.testcases.CustomerLoginTestCases.transactionExcel() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.deposit() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.validations() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.resetTransaction() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.withdrawl() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1
+com.bankingproject.testcases.CustomerLoginTestCases.validateLogin() on instance com.bankingproject.testcases.CustomerLoginTestCases@328cf0e1]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.bankingproject.testcases.CustomerLoginTestCases -->
+      <class name="com.bankingproject.testcases.BankManagerTestCases">
+        <test-method is-config="true" signature="Loadconfig()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:18 IST" name="Loadconfig" finished-at="2024-11-08T11:21:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loadconfig -->
+        <test-method signature="validateAddCustomerURL()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:18 IST" name="validateAddCustomerURL" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:19 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddCustomerURL -->
+        <test-method signature="addCustomerFeildsDisplayed()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:19 IST" name="addCustomerFeildsDisplayed" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:19 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerFeildsDisplayed -->
+        <test-method signature="addCustomers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:20 IST" name="addCustomers" data-provider="exceldata" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:21 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abraham]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67969]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomers -->
+        <test-method signature="addCustomers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:21 IST" name="addCustomers" data-provider="exceldata" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:22 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushmitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kashyap]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5896]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomers -->
+        <test-method signature="addCustomers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:22 IST" name="addCustomers" data-provider="exceldata" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:24 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="1525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keerthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Padyara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5681]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomers -->
+        <test-method signature="addSingleCustomer()[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:24 IST" name="addSingleCustomer" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:28 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="4235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleCustomer -->
+        <test-method signature="openAccount(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:28 IST" name="openAccount" data-provider="fetchCustomerName" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:30 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomers, com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="1685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane Abraham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method signature="openAccount(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:30 IST" name="openAccount" data-provider="fetchCustomerName" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:32 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomers, com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="1968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushmitha Kashyap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method signature="openAccount(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:32 IST" name="openAccount" data-provider="fetchCustomerName" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:34 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomers, com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL" duration-ms="1922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keerthi Padyara]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method signature="deleteCustomer(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:34 IST" name="deleteCustomer" data-provider="fetchFirstName" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:36 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomers, com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL, com.bankingproject.testcases.BankManagerTestCases.openAccount" duration-ms="1725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="deleteCustomer(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:36 IST" name="deleteCustomer" data-provider="fetchFirstName" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:38 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomers, com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL, com.bankingproject.testcases.BankManagerTestCases.openAccount" duration-ms="1720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushmitha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="deleteCustomer(java.lang.String)[pri:0, instance:com.bankingproject.testcases.BankManagerTestCases@2fc0cc3]" started-at="2024-11-08T11:21:38 IST" name="deleteCustomer" data-provider="fetchFirstName" depends-on-groups="HomePageTestCases" finished-at="2024-11-08T11:21:39 IST" depends-on-methods="com.bankingproject.testcases.BankManagerTestCases.addCustomers, com.bankingproject.testcases.BankManagerTestCases.addCustomerFeildsDisplayed, com.bankingproject.testcases.BankManagerTestCases.validateAddCustomerURL, com.bankingproject.testcases.BankManagerTestCases.openAccount" duration-ms="1703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keerthi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+      </class> <!-- com.bankingproject.testcases.BankManagerTestCases -->
+      <class name="com.bankingproject.testcases.HomePageTestCases">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:02 IST" name="beforeSuite" finished-at="2024-11-08T11:21:02 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:02 IST" name="setUp" finished-at="2024-11-08T11:21:13 IST" duration-ms="11211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Loadconfig()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:13 IST" name="Loadconfig" finished-at="2024-11-08T11:21:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loadconfig -->
+        <test-method signature="validateURL()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:13 IST" name="validateURL" finished-at="2024-11-08T11:21:13 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateURL -->
+        <test-method signature="checkHomeButtonFunctionality()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:13 IST" name="checkHomeButtonFunctionality" finished-at="2024-11-08T11:21:14 IST" depends-on-methods="com.bankingproject.testcases.HomePageTestCases.validateURL" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomeButtonFunctionality -->
+        <test-method signature="checkCustomerButtonFunctionality()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:14 IST" name="checkCustomerButtonFunctionality" finished-at="2024-11-08T11:21:15 IST" depends-on-methods="com.bankingproject.testcases.HomePageTestCases.validateURL, com.bankingproject.testcases.HomePageTestCases.checkHomeButtonFunctionality" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCustomerButtonFunctionality -->
+        <test-method signature="checkBankMangerButtonFunctionality()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:21:15 IST" name="checkBankMangerButtonFunctionality" finished-at="2024-11-08T11:21:18 IST" depends-on-methods="com.bankingproject.testcases.HomePageTestCases.validateURL, com.bankingproject.testcases.HomePageTestCases.checkCustomerButtonFunctionality, com.bankingproject.testcases.HomePageTestCases.checkHomeButtonFunctionality" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBankMangerButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bankingproject.testcases.HomePageTestCases@f667fe]" started-at="2024-11-08T11:22:03 IST" name="tearDown" finished-at="2024-11-08T11:22:03 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bankingproject.testcases.HomePageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
